@@ -1,3 +1,4 @@
+import React from 'react';
 import { SafeAreaInsets } from "@/types";
 
 interface SafeAreaContainerProps {
@@ -5,19 +6,21 @@ interface SafeAreaContainerProps {
   insets?: SafeAreaInsets;
 }
 
-export const SafeAreaContainer = ({
-  children,
-  insets,
-}: SafeAreaContainerProps) => (
-  <main
-    className="flex min-h-screen flex-col items-center justify-center gap-y-3"
-    style={{
-      marginTop: insets?.top ?? 0,
-      marginBottom: insets?.bottom ?? 0,
-      marginLeft: insets?.left ?? 0,
-      marginRight: insets?.right ?? 0,
-    }}
-  >
-    {children}
-  </main>
-);
+export default function SafeAreaContainer({ 
+  children, 
+  insets = { top: 0, bottom: 0, left: 0, right: 0 } 
+}: SafeAreaContainerProps) {
+  return (
+    <div 
+      style={{
+        paddingTop: `${insets.top || 0}px`,
+        paddingBottom: `${insets.bottom || 0}px`,
+        paddingLeft: `${insets.left || 0}px`,
+        paddingRight: `${insets.right || 0}px`,
+      }}
+    >
+      {children}
+    </div>
+  );
+}
+

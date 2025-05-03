@@ -1,4 +1,4 @@
-import { SafeAreaContainer } from "@/components/safe-area-container";
+import SafeAreaContainer from "@/components/safe-area-container";
 import { useMiniAppContext } from "@/hooks/use-miniapp-context";
 import dynamic from "next/dynamic";
 
