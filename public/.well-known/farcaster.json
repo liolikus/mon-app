@@ -8,13 +8,13 @@
   "frame": {
     "version": "1",
     "name": "miniMON",
-    "iconUrl": "https://idea-ou-college-displaying.trycloudflare.com/images/miniMON.png",
-    "homeUrl": "https://idea-ou-college-displaying.trycloudflare.com",
-    "imageUrl": "https://idea-ou-college-displaying.trycloudflare.com/images/miniMON.png",
+    "iconUrl": "mon-app-tau.vercel.app/images/miniMON.png",
+    "homeUrl": "mon-app-tau.vercel.app",
+    "imageUrl": "mon-app-tau.vercel.app/images/miniMON.png",
     "buttonTitle": "Mint!",
-    "splashImageUrl": "https://idea-ou-college-displaying.trycloudflare.com/images/Splash.png",
+    "splashImageUrl": "mon-app-tau.vercel.app/images/Splash.png",
     "splashBackgroundColor": "#f5f0ec",
-    "webhookUrl": "https://idea-ou-college-displaying.trycloudflare.com/api/webhook"
+    "webhookUrl": "mon-app-tau.vercel.app/api/webhook"
   }
 }
 
