@@ -1,1 +1,1 @@
-# Monad Farcaster MiniApp Template
+# miniMON minter
