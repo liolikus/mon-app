@@ -8,13 +8,13 @@
   "frame": {
     "version": "1",
     "name": "miniMON",
-    "iconUrl": "mon-app-tau.vercel.app/images/miniMON.png",
-    "homeUrl": "mon-app-tau.vercel.app",
-    "imageUrl": "mon-app-tau.vercel.app/images/miniMON.png",
+    "iconUrl": "https://mon-app-tau.vercel.app/images/miniMON.png",
+    "homeUrl": "https://mon-app-tau.vercel.app",
+    "imageUrl": "https://mon-app-tau.vercel.app/miniMON.png",
     "buttonTitle": "Mint!",
-    "splashImageUrl": "mon-app-tau.vercel.app/images/Splash.png",
+    "splashImageUrl": "https://mon-app-tau.vercel.app/images/Splash.png",
     "splashBackgroundColor": "#f5f0ec",
-    "webhookUrl": "mon-app-tau.vercel.app/api/webhook"
+    "webhookUrl": "https://mon-app-tau.vercel.app/api/webhook"
   }
 }
 
